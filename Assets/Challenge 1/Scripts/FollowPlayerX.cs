@@ -10,6 +10,7 @@ public class FollowPlayerX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        transform.position = new Vector3 (50, -3, 0);
         transform.rotation = Quaternion.Euler(0, -90, 0);
         offset = transform.position - plane.transform.position;
     }
